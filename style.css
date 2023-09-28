@@ -1,4 +1,28 @@
-.grid{
-    display: grid;
-    grid-template-columns: 30% auto;
+.grid {
+  display: grid;
+  grid-template-columns: 10% auto;
+  gap: 10px;
+}
+
+.grid > * {
+  border: 2px solid black;
+}
+
+h1, h2, footer p{
+  text-align: center;
+}
+
+article {
+  border: 2px solid black;
+  margin: 3px;
+  border-radius: 3px;
+
+}
+
+aside {
+  border-style: none !important;
+}
+
+img {
+  width: 100%;
 }
